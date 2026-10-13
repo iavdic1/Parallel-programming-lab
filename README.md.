@@ -1,0 +1,4 @@
+The goal was to find and fix memory errors in C language usig valgrind
+
+0 errors
+no memory leaks after  fixing
