@@ -1,4 +1,4 @@
-Lab 4 - Assignment
+Lab 4 - Assignment - fixed
 
 I copied the Makefile and aosoa_measurement.cpp from GitHub.
 
