@@ -1,0 +1,562 @@
+========================================
+Lab 5 - Summation methods
+
+========================================
+TESTING WITH 2^10 = 1024 elements
+========================================
+Expected sum: 51.2000000512
+
+Standard double
+Sum: 51.20000005120137
+Error: 1.37134748e-12
+Runtime: 0.000003 seconds
+
+Long double
+Sum: 51.2000000512
+Error: 3.552713679e-15
+Runtime: 0.000006 seconds
+
+Pairwise
+Sum: 51.2000000512
+Error: 0
+Runtime: 0.000010 seconds
+
+Kahan
+Sum: 51.2000000512
+Error: 0
+Runtime: 0.000010 seconds
+
+Knuth
+Sum: 51.2000000512
+Error: 0
+Runtime: 0.000009 seconds
+
+
+========================================
+TESTING WITH 2^11 = 2048 elements
+========================================
+Expected sum: 102.4000001024
+
+Standard double
+Sum: 102.4000001024003
+Error: 2.842170943e-13
+Runtime: 0.000006 seconds
+
+Long double
+Sum: 102.4000001024
+Error: 7.105427358e-15
+Runtime: 0.000010 seconds
+
+Pairwise
+Sum: 102.4000001024
+Error: 0
+Runtime: 0.000014 seconds
+
+Kahan
+Sum: 102.4000001024
+Error: 0
+Runtime: 0.000019 seconds
+
+Knuth
+Sum: 102.4000001024
+Error: 0
+Runtime: 0.000020 seconds
+
+
+========================================
+TESTING WITH 2^12 = 4096 elements
+========================================
+Expected sum: 204.8000002048
+
+Standard double
+Sum: 204.8000002047672
+Error: 3.279865268e-11
+Runtime: 0.000012 seconds
+
+Long double
+Sum: 204.8000002048
+Error: 0
+Runtime: 0.000025 seconds
+
+Pairwise
+Sum: 204.8000002048
+Error: 0
+Runtime: 0.000027 seconds
+
+Kahan
+Sum: 204.8000002048
+Error: 0
+Runtime: 0.000038 seconds
+
+Knuth
+Sum: 204.8000002048
+Error: 0
+Runtime: 0.000038 seconds
+
+
+========================================
+TESTING WITH 2^13 = 8192 elements
+========================================
+Expected sum: 409.6000004096
+
+Standard double
+Sum: 409.6000004095737
+Error: 2.626165951e-11
+Runtime: 0.000024 seconds
+
+Long double
+Sum: 409.6000004096001
+Error: 5.684341886e-14
+Runtime: 0.000042 seconds
+
+Pairwise
+Sum: 409.6000004096
+Error: 0
+Runtime: 0.000056 seconds
+
+Kahan
+Sum: 409.6000004096
+Error: 0
+Runtime: 0.000077 seconds
+
+Knuth
+Sum: 409.6000004096
+Error: 0
+Runtime: 0.000512 seconds
+
+
+========================================
+TESTING WITH 2^14 = 16384 elements
+========================================
+Expected sum: 819.2000008192
+
+Standard double
+Sum: 819.2000008196816
+Error: 4.815774446e-10
+Runtime: 0.000064 seconds
+
+Long double
+Sum: 819.2000008192
+Error: 2.842170943e-14
+Runtime: 0.000079 seconds
+
+Pairwise
+Sum: 819.2000008192
+Error: 0
+Runtime: 0.000067 seconds
+
+Kahan
+Sum: 819.2000008192
+Error: 0
+Runtime: 0.000153 seconds
+
+Knuth
+Sum: 819.2000008192
+Error: 0
+Runtime: 0.000225 seconds
+
+
+========================================
+TESTING WITH 2^15 = 32768 elements
+========================================
+Expected sum: 1638.4000016384
+
+Standard double
+Sum: 1638.400001638733
+Error: 3.331024345e-10
+Runtime: 0.000116 seconds
+
+Long double
+Sum: 1638.4000016384
+Error: 8.526512829e-14
+Runtime: 0.000181 seconds
+
+Pairwise
+Sum: 1638.4000016384
+Error: 0
+Runtime: 0.000183 seconds
+
+Kahan
+Sum: 1638.4000016384
+Error: 0
+Runtime: 0.000309 seconds
+
+Knuth
+Sum: 1638.4000016384
+Error: 0
+Runtime: 0.000296 seconds
+
+
+========================================
+TESTING WITH 2^16 = 65536 elements
+========================================
+Expected sum: 3276.8000032768
+
+Standard double
+Sum: 3276.800003276371
+Error: 4.292814992e-10
+Runtime: 0.000201 seconds
+
+Long double
+Sum: 3276.800003276801
+Error: 1.051603249e-12
+Runtime: 0.000342 seconds
+
+Pairwise
+Sum: 3276.8000032768
+Error: 0
+Runtime: 0.000400 seconds
+
+Kahan
+Sum: 3276.8000032768
+Error: 0
+Runtime: 0.000614 seconds
+
+Knuth
+Sum: 3276.8000032768
+Error: 0
+Runtime: 0.000452 seconds
+
+
+========================================
+TESTING WITH 2^17 = 131072 elements
+========================================
+Expected sum: 6553.6000065536
+
+Standard double
+Sum: 6553.600006562821
+Error: 9.221366781e-09
+Runtime: 0.000399 seconds
+
+Long double
+Sum: 6553.600006553604
+Error: 4.234834705e-12
+Runtime: 0.000788 seconds
+
+Pairwise
+Sum: 6553.6000065536
+Error: 0
+Runtime: 0.000754 seconds
+
+Kahan
+Sum: 6553.6000065536
+Error: 0
+Runtime: 0.001364 seconds
+
+Knuth
+Sum: 6553.6000065536
+Error: 0
+Runtime: 0.002554 seconds
+
+
+========================================
+TESTING WITH 2^18 = 262144 elements
+========================================
+Expected sum: 13107.2000131072
+
+Standard double
+Sum: 13107.20001314317
+Error: 3.597415343e-08
+Runtime: 0.000817 seconds
+
+Long double
+Sum: 13107.20001310719
+Error: 1.122657523e-11
+Runtime: 0.001597 seconds
+
+Pairwise
+Sum: 13107.2000131072
+Error: 0
+Runtime: 0.001793 seconds
+
+Kahan
+Sum: 13107.2000131072
+Error: 0
+Runtime: 0.002537 seconds
+
+Knuth
+Sum: 13107.2000131072
+Error: 0
+Runtime: 0.005398 seconds
+
+
+========================================
+TESTING WITH 2^19 = 524288 elements
+========================================
+Expected sum: 26214.4000262144
+
+Standard double
+Sum: 26214.40002564823
+Error: 5.661713658e-07
+Runtime: 0.001613 seconds
+
+Long double
+Sum: 26214.40002621434
+Error: 5.670131031e-11
+Runtime: 0.003099 seconds
+
+Pairwise
+Sum: 26214.4000262144
+Error: 0
+Runtime: 0.007749 seconds
+
+Kahan
+Sum: 26214.4000262144
+Error: 0
+Runtime: 0.005805 seconds
+
+Knuth
+Sum: 26214.4000262144
+Error: 0
+Runtime: 0.006518 seconds
+
+
+========================================
+TESTING WITH 2^20 = 1048576 elements
+========================================
+Expected sum: 52428.8000524288
+
+Standard double
+Sum: 52428.80005292332
+Error: 4.945177352e-07
+Runtime: 0.003253 seconds
+
+Long double
+Sum: 52428.80005242807
+Error: 7.297273896e-10
+Runtime: 0.004600 seconds
+
+Pairwise
+Sum: 52428.8000524288
+Error: 0
+Runtime: 0.005180 seconds
+
+Kahan
+Sum: 52428.8000524288
+Error: 0
+Runtime: 0.010461 seconds
+
+Knuth
+Sum: 52428.8000524288
+Error: 0
+Runtime: 0.007540 seconds
+
+
+========================================
+TESTING WITH 2^21 = 2097152 elements
+========================================
+Expected sum: 104857.6001048576
+
+Standard double
+Sum: 104857.6001084272
+Error: 3.569555702e-06
+Runtime: 0.006373 seconds
+
+Long double
+Sum: 104857.6001048604
+Error: 2.813663968e-09
+Runtime: 0.009052 seconds
+
+Pairwise
+Sum: 104857.6001048576
+Error: 0
+Runtime: 0.009286 seconds
+
+Kahan
+Sum: 104857.6001048576
+Error: 0
+Runtime: 0.019776 seconds
+
+Knuth
+Sum: 104857.6001048576
+Error: 0
+Runtime: 0.014450 seconds
+
+
+========================================
+TESTING WITH 2^22 = 4194304 elements
+========================================
+Expected sum: 209715.2002097152
+
+Standard double
+Sum: 209715.2001908246
+Error: 1.889059786e-05
+Runtime: 0.012653 seconds
+
+Long double
+Sum: 209715.2002097158
+Error: 5.872209385e-10
+Runtime: 0.018298 seconds
+
+Pairwise
+Sum: 209715.2002097152
+Error: 0
+Runtime: 0.016544 seconds
+
+Kahan
+Sum: 209715.2002097152
+Error: 0
+Runtime: 0.039112 seconds
+
+Knuth
+Sum: 209715.2002097152
+Error: 0
+Runtime: 0.030805 seconds
+
+
+========================================
+TESTING WITH 2^23 = 8388608 elements
+========================================
+Expected sum: 419430.4004194304
+
+Standard double
+Sum: 419430.400462431
+Error: 4.300061846e-05
+Runtime: 0.025145 seconds
+
+Long double
+Sum: 419430.4004193632
+Error: 6.71956002e-08
+Runtime: 0.035622 seconds
+
+Pairwise
+Sum: 419430.4004194304
+Error: 0
+Runtime: 0.034155 seconds
+
+Kahan
+Sum: 419430.4004194304
+Error: 0
+Runtime: 0.078242 seconds
+
+Knuth
+Sum: 419430.4004194304
+Error: 0
+Runtime: 0.056468 seconds
+
+
+========================================
+TESTING WITH 2^24 = 16777216 elements
+========================================
+Expected sum: 838860.8008388608
+
+Standard double
+Sum: 838860.800853056
+Error: 1.419521868e-05
+Runtime: 0.050096 seconds
+
+Long double
+Sum: 838860.800838807
+Error: 5.374965895e-08
+Runtime: 0.066839 seconds
+
+Pairwise
+Sum: 838860.8008388608
+Error: 0
+Runtime: 0.067375 seconds
+
+Kahan
+Sum: 838860.8008388608
+Error: 0
+Runtime: 0.156252 seconds
+
+Knuth
+Sum: 838860.8008388608
+Error: 0
+Runtime: 0.114071 seconds
+
+
+========================================
+TESTING WITH 2^25 = 33554432 elements
+========================================
+Expected sum: 1677721.601677722
+
+Standard double
+Sum: 1677721.600413603
+Error: 0.001264118822
+Runtime: 0.100250 seconds
+
+Long double
+Sum: 1677721.601678708
+Error: 9.864212416e-07
+Runtime: 0.133248 seconds
+
+Pairwise
+Sum: 1677721.601677722
+Error: 0
+Runtime: 0.135309 seconds
+
+Kahan
+Sum: 1677721.601677722
+Error: 0
+Runtime: 0.312728 seconds
+
+Knuth
+Sum: 1677721.601677722
+Error: 0
+Runtime: 0.233406 seconds
+
+
+========================================
+TESTING WITH 2^26 = 67108864 elements
+========================================
+Expected sum: 3355443.203355443
+
+Standard double
+Sum: 3355443.201976103
+Error: 0.001379340421
+Runtime: 0.204604 seconds
+
+Long double
+Sum: 3355443.203356126
+Error: 6.825771379e-07
+Runtime: 0.290269 seconds
+
+Pairwise
+Sum: 3355443.203355443
+Error: 0
+Runtime: 0.291868 seconds
+
+Kahan
+Sum: 3355443.203355443
+Error: 0
+Runtime: 0.626189 seconds
+
+Knuth
+Sum: 3355443.203355443
+Error: 0
+Runtime: 0.470101 seconds
+
+
+========================================
+TESTING WITH 2^27 = 134217728 elements
+========================================
+Expected sum: 6710886.406710886
+
+Standard double
+Sum: 6710886.393382353
+Error: 0.01332853362
+Runtime: 0.432547 seconds
+
+Long double
+Sum: 6710886.406710008
+Error: 8.787851584e-07
+Runtime: 0.706901 seconds
+
+Pairwise
+Sum: 6710886.406710886
+Error: 0
+Runtime: 1.209412 seconds
+
+Kahan
+Sum: 6710886.406710886
+Error: 0
+Runtime: 1.313658 seconds
+
+Knuth
+Sum: 6710886.406710886
+Error: 0
+Runtime: 1.281079 seconds
+
+========================================
+All tests complete!
