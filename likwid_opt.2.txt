@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Core(TM) i3-2120 CPU @ 3.30GHz
+CPU type:	Intel Core SandyBridge processor
+CPU clock:	3.29 GHz
+--------------------------------------------------------------------------------
+Minimum dt is 0.016964
+--------------------------------------------------------------------------------
+Group 1: FLOPS_DP
++--------------------------------------+---------+------------+
+|                 Event                | Counter | HWThread 0 |
++--------------------------------------+---------+------------+
+|           INSTR_RETIRED_ANY          |  FIXC0  |  227742240 |
+|         CPU_CLK_UNHALTED_CORE        |  FIXC1  |  819721783 |
+|         CPU_CLK_UNHALTED_REF         |  FIXC2  |  819721551 |
+| FP_COMP_OPS_EXE_SSE_FP_PACKED_DOUBLE |   PMC0  |          0 |
+| FP_COMP_OPS_EXE_SSE_FP_SCALAR_DOUBLE |   PMC1  |   90586075 |
+|       SIMD_FP_256_PACKED_DOUBLE      |   PMC2  |          0 |
++--------------------------------------+---------+------------+
+
++-------------------------+------------+
+|          Metric         | HWThread 0 |
++-------------------------+------------+
+|   Runtime (RDTSC) [s]   |     0.4153 |
+|   Runtime unhalted [s]  |     0.2490 |
+|       Clock [MHz]       |  3292.1051 |
+|           CPI           |     3.5993 |
+|       DP [MFLOP/s]      |   218.1096 |
+|     AVX DP [MFLOP/s]    |          0 |
+|     Packed [MUOPS/s]    |          0 |
+|     Scalar [MUOPS/s]    |   218.1096 |
+| Vectorization ratio [%] |          0 |
++-------------------------+------------+
+
