@@ -1,0 +1,10 @@
+OMP_NUM_THREADS=2
+
+stencil_opt2:
+Timing is init 0.020241 flush 70.777672 stencil 139.545904 total 210.347083
+
+stencil_opt4:
+Timing is init 0.020489 flush 70.097275 stencil 141.939571 total 212.062343
+
+stencil_opt6:
+Timing is init 0.017474 flush 70.107393 stencil 141.156643 total 211.321899
